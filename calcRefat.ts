@@ -34,7 +34,7 @@ function subtração(numeroUm: number, numeroDois: number): void {
     menu();
 }
 
-function multiplicação(numeroUm: number, numeroDois: number) {
+function multiplicação(numeroUm: number, numeroDois: number): void {
     numeroUm = parseInt(teclado(`Digite o 1º número: `));
     numeroDois = parseInt(teclado(`Digite o 2º número: `));
     resultado = numeroUm * numeroDois;
@@ -45,7 +45,7 @@ function multiplicação(numeroUm: number, numeroDois: number) {
     menu();
 }
 
-function divisao(numeroUm: number, numeroDois: number) {
+function divisao(numeroUm: number, numeroDois: number): void {
     numeroUm = parseInt(teclado(`Digite o 1º número: `));
     numeroDois = parseInt(teclado(`Digite o 2º número: `));
     resultado = numeroUm / numeroDois;
