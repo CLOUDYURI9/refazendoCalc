@@ -1,3 +1,4 @@
+//nome: Yuri Dinato da SIlva
 const teclado = require(`prompt-Sync`)();
 
 let numeroUm = 0;
